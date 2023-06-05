@@ -23,7 +23,7 @@ while true; do
             echo "Hello world!"
             ;;
         2)
-            ping -c 4 192.168.1.239
+            ping -c 127.0.0.1
             ;;
         3)
             ip a
